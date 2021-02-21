@@ -3,7 +3,6 @@ package com.softuni.exam.service.impl;
 import com.softuni.exam.model.entity.Album;
 import com.softuni.exam.model.entity.User;
 import com.softuni.exam.model.service.AlbumServiceModel;
-import com.softuni.exam.model.view.AlbumViewModel;
 import com.softuni.exam.repository.AlbumRepository;
 import com.softuni.exam.service.ArtistService;
 import com.softuni.exam.service.AlbumService;
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Service
 public class AlbumServiceImpl implements AlbumService {
